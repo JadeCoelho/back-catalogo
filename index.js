@@ -9,15 +9,18 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 // Add this before server.use(router)
 server.use(
- // Add custom route here if needed
- jsonServer.rewriter({
-  "/*": "/$1",
- })
+  // Add custom route here if needed
+  jsonServer.rewriter({
+    "/*": "/$1",
+  })
 );
 server.use(router);
 // Listen to port
-server.listen(8000, () => {
- console.log("JSON Server is running");
+
+const port = process.env.PORT || 8000;
+
+server.listen(port, () => {
+  console.log("JSON Server is running");
 });
 
 // Export the Server API
