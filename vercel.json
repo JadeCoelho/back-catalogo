@@ -12,12 +12,6 @@
       "headers": {
         "Access-Control-Allow-Origin": "*"
       }
-    },
-    {
-      "source": "https://front-catalogo-gamma.vercel.app/catalogos",
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
     }
   ],
   "routes": [
