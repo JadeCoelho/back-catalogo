@@ -6,7 +6,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://front-catalogo-gamma.vercel.app"
+          "value": ["https://front-catalogo-gamma.vercel.app", "https://main--heroic-malabi-ac135f.netlify.app"]
         }
       ]
     }
