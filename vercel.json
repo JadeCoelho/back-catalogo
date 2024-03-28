@@ -6,7 +6,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "*"
+          "value": "https://front-catalogo-gamma.vercel.app"
         }
       ]
     }
