@@ -1,13 +1,6 @@
-
 {
-    "version": 2,
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "db.json"
-      }
-    ],
-     "headers": [
+  "version": 2,
+  "headers": [
     {
       "source": "/(.*)",
       "headers": [
@@ -17,4 +10,11 @@
         }
       ]
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "db.json"
+    }
+  ]
+}
