@@ -6,7 +6,7 @@
       "headers": [
         {
           "key": "Access-Control-Allow-Origin",
-          "value": "https://rad-vacherin-5ec4e8.netlify.app"
+          "value": "https://main--rad-vacherin-5ec4e8.netlify.app"
         }
       ]
     }
