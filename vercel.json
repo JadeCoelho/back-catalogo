@@ -3,12 +3,21 @@
   "headers": [
     {
       "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "https://front-catalogo-gamma.vercel.app"
-        }
-      ]
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
+      "source": "https://front-catalogo-gamma.vercel.app/",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
+      "source": "https://front-catalogo-gamma.vercel.app/catalogos",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
     }
   ],
   "routes": [
